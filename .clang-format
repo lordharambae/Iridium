@@ -38,7 +38,7 @@ ObjCSpaceAfterProperty: 'false'
 ObjCSpaceBeforeProtocolList: 'false'
 PointerAlignment: Middle
 ReflowComments: 'true'
-SortIncludes: 'true'
+SortIncludes: 'false'
 SpaceAfterCStyleCast: 'true'
 SpaceBeforeAssignmentOperators: 'true'
 SpaceBeforeParens: ControlStatements

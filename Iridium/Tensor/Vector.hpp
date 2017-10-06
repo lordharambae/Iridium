@@ -1,4 +1,6 @@
 #pragma once
+#ifndef VECTOR_HPP
+#define VECTOR_HPP
 
 namespace Iridium {
 
@@ -7,7 +9,8 @@ namespace Iridium {
 		template <class T>
 		using Vector = std::vector<T>;
 
+	} // Iridium::Tensor
 
-	}
+} // Iridium
 
-}
+#endif

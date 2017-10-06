@@ -1,7 +1,13 @@
 #pragma once
+#ifndef OPTIMIZER_HPP
+#define OPTIMIZER_HPP
 
 namespace Iridium {
 
-	namespace Optimizer {}
+	namespace Optimizer {
 
-}
+	} // Iridium::Optimizer
+
+} // Iridium
+
+#endif

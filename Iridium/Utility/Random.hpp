@@ -1,4 +1,6 @@
 #pragma once
+#ifndef RANDOM_HPP
+#define RANDOM_HPP
 
 namespace Iridium {
 
@@ -6,8 +8,10 @@ namespace Iridium {
 
 		namespace Random {
 
-		}
+		} // Iridium::Utility::Random
 
-	}
+	} // Iridium::Utility
 
-}
+} // Iridium
+
+#endif

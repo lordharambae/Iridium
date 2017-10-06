@@ -1,4 +1,6 @@
 #pragma once
+#ifndef MATH_HPP
+#define MATH_HPP
 
 namespace Iridium {
 
@@ -6,159 +8,94 @@ namespace Iridium {
 
 		namespace Math {
 
-			Scalor::Float64 pi 	= 3.141592653589793238463;
-			Scalor::Float64 e 	= 2.718281828459045235360;
-			Scalor::Float64 NaN 	= NAN;
-			Scalor::Float64 Infinity = INFINITY;
-
 			template <class T>
-			auto Modulus(const T& x) {
-				return std::abs(x);
-			}
+			auto Modulus(const T &x) {}
 
 			template <class T, class U>
-			auto Remainder(const T& x, const U& y) {
-				return std::remainder(x,y);
-			}
+			auto Remainder(const T &x, const U &y) {}
 
 			template <class T, class U>
-			auto Max(const T& x, const U& y) {
-				if (x >= y) {
-					return x;
-				}
-				return y;
-			}
+			auto Max(const T &x, const U &y) {}
 
 			template <class T, class U>
-			auto Min(const T& x, const U& y) {
-				if (x >= y) {
-					return y;
-				}
-				return x;
-			}
+			auto Min(const T &x, const U &y) {}
 
 			template <class T>
-			auto Ceil(const T& x) {
-				return std::ceil(x);
-			}
+			auto Ceil(const T &x) {}
 
 			template <class T>
-			auto Floor(const T& x) {
-				return std::floor(x);
-			}
+			auto Floor(const T &x) {}
 
 			template <class T>
-			auto Truncate(const T& x) {
-				return std::trunc(x);
-			}
+			auto Truncate(const T &x) {}
 
 			template <class T>
-			T Round(const T& x) {
-				return std::round(x);
-			}
+			auto Round(const T &x) {}
 
 			template <class T, class U>
-			auto Power(const T& x, const U& y) {
-				return std::pow(x,y);
-			}
+			auto Power(const T &x, const U &y) {}
 
 			template <class T>
-			auto Exponent(const T& x) {
-				return std::exp(x);
-			}
+			auto Exponent(const T &x) {}
 
 			template <class T>
-			auto SquareRoot(const T& x) {
-				return std::sqrt(x);
-			}
+			auto SquareRoot(const T &x) {}
 
 			template <class T>
-			auto CubeRoot(const T& x) {
-				return std::cbrt(x);
-			}
+			auto CubeRoot(const T &x) {}
 
 			template <class T>
-			auto Log(const T& x) {
-				return std::log(x);
-			}
+			auto Log(const T &x) {}
 
 			template <class T>
-			auto Log10(const T& x) {
-				return std::log10(x);
-			}
+			auto Log10(const T &x) {}
 
 			template <class T>
-			auto Log2(const T& x) {
-				return std::log2(x);
-			}
+			auto Log2(const T &x) {}
 
 			template <class T>
-			auto Sine(const T& x) {
-				return std::sin(x);
-			}
+			auto Sine(const T &x) {}
 
 			template <class T>
-			auto Cosine(const T& x) {
-				return std::cos(x);
-			}
+			auto Cosine(const T &x) {}
 
 			template <class T>
-			auto Tangent(const T& x) {
-				return std::tan(x);
-			}
+			auto Tangent(const T &x) {}
 
 			template <class T>
-			auto SineInverse(const T& x) {
-				return std::asin(x);
-			}
+			auto SineInverse(const T &x) {}
 
 			template <class T>
-			auto CosineInverse(const T& x) {
-				return std::acos(x);
-			}
+			auto CosineInverse(const T &x) {}
 
 			template <class T>
-			auto TangentInverse(const T& x) {
-				return std::atan(x);
-			}
+			auto TangentInverse(const T &x) {}
 
 			template <class T>
-			auto Sin(const T& x) {
-				return std::sin(x);
-			}
+			auto Sin(const T &x) {}
 
 			template <class T>
-			auto HyperbolicSine(const T& x) {
-				return std::sinh(x);
-			}
+			auto HyperbolicSine(const T &x) {}
 
 			template <class T>
-			auto HyperbolicCosine(const T& x) {
-				return std::cosh(x);
-			}
+			auto HyperbolicCosine(const T &x) {}
 
 			template <class T>
-			auto HyperbolicTangent(const T& x) {
-				return std::tanh(x);
-			}
+			auto HyperbolicTangent(const T &x) {}
 
 			template <class T>
-			auto HyperbolicSineInverse(const T& x) {
-				return std::asinh(x);
-			}
+			auto HyperbolicSineInverse(const T &x) {}
 
 			template <class T>
-			auto HyperbolicCosineInverse(const T& x) {
-				return std::acosh(x);
-			}
+			auto HyperbolicCosineInverse(const T &x) {}
 
 			template <class T>
-			auto HyperbolicTangentInverse(const T& x) {
-				return std::atanh(x);
-			}
+			auto HyperbolicTangentInverse(const T &x) {}
 
-		}
+		} // Iridium::Utility::Math
 
-	}
+	} // Iridium::Utility
 
-}
+} // Iridium
+
+#endif

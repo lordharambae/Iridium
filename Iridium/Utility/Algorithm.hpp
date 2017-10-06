@@ -1,4 +1,6 @@
 #pragma once
+#ifndef ALGORITHM_HPP
+#define ALGORITHM_HPP
 
 namespace Iridium {
 
@@ -6,8 +8,10 @@ namespace Iridium {
 
 		namespace Algorithm {
 
-		}
+		} // Iridium::Utility::Algorithm
 
-	}
+	} // Iridium::Utility
 
-}
+} // Iridium
+
+#endif

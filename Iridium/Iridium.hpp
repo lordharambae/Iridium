@@ -1,32 +1,23 @@
 #pragma once
-#include <vector>
+#ifndef IRIDIUM_HPP
+#define IRIDIUM_HPP
+
 #include <numeric>
+#include <vector>
 #include <random>
 #include <algorithm>
 #include <functional>
 
 #include "Scalor/Scalor.hpp"
-#include "Tensor/Vector.hpp"
-#include "Tensor/Matrix.hpp"
-#include "Utility/Math.hpp"
-#include "Utility/Random.hpp"
-#include "Utility/Algorithm.hpp"
-#include "Utility/Functional.hpp"
-#include "Activation/Derivative.hpp"
-#include "Activation/Function.hpp"
-#include "Analyzer/Analyzer.hpp"
+#include "Tensor/Tensor.hpp"
+#include "Utility/Utility.hpp"
 #include "Initializer/Initializer.hpp"
-#include "Loss/Loss.hpp"
+#include "Activation/Activation.hpp"
 #include "Normalizer/Normalizer.hpp"
 #include "Optimizer/Optimizer.hpp"
-#include "Model/AssociativeHopfield.hpp"
-#include "Model/BidirectionalRecurrent.hpp"
-#include "Model/Boltzmann.hpp"
-#include "Model/Convolutional.hpp"
-#include "Model/EchoState.hpp"
-#include "Model/GatedRecurrent.hpp"
-#include "Model/Hopfield.hpp"
-#include "Model/LongShortTermMemory.hpp"
-#include "Model/Neocognitron.hpp"
-#include "Model/Perceptron.hpp"
-#include "Model/Recurrent.hpp"
+#include "Analyzer/Analyzer.hpp"
+#include "Loss/Loss.hpp"
+#include "Session/Session.hpp"
+#include "Model/Model.hpp"
+
+#endif

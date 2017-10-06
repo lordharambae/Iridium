@@ -1,4 +1,6 @@
 #pragma once
+#ifndef SCALOR_HPP
+#define SCALOR_HPP
 
 namespace Iridium {
 
@@ -6,8 +8,6 @@ namespace Iridium {
 
 		using Boolean = bool;
 		using Char8 = char;
-		using Char16 = char16_t;
-		using Char32 = char32_t;
 		using Int16 = signed short int;
 		using UInt16 = unsigned short int;
 		using Int32 = signed int;
@@ -18,6 +18,8 @@ namespace Iridium {
 		using Float64 = double;
 		using Float128 = long double;
 
-	}
+	} // Iridium::Scalor
 
-}
+} // Iridium
+
+#endif
