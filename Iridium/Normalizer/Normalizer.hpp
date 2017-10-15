@@ -4,10 +4,8 @@
 
 namespace Iridium {
 
-	namespace Normalizer {
+	namespace Normalizer {} // namespace Normalizer
 
-	} // Iridium::Normalizer
-
-} // Iridium
+} // namespace Iridium
 
 #endif

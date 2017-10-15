@@ -4,10 +4,8 @@
 
 namespace Iridium {
 
-	namespace Loss {
+	namespace Loss {} // namespace Loss
 
-	} // Iridium::Loss
-
-} // Iridium
+} // namespace Iridium
 
 #endif

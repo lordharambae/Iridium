@@ -4,10 +4,8 @@
 
 namespace Iridium {
 
-	namespace Optimizer {
+	namespace Optimizer {} // namespace Optimizer
 
-	} // Iridium::Optimizer
-
-} // Iridium
+} // namespace Iridium
 
 #endif

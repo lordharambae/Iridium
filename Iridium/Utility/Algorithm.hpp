@@ -6,12 +6,10 @@ namespace Iridium {
 
 	namespace Utility {
 
-		namespace Algorithm {
+		namespace Algorithm {} // namespace Algorithm
 
-		} // Iridium::Utility::Algorithm
+	} // namespace Utility
 
-	} // Iridium::Utility
-
-} // Iridium
+} // namespace Iridium
 
 #endif

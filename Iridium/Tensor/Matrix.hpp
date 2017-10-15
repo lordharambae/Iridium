@@ -8,9 +8,9 @@ namespace Iridium {
 
 		template <class T>
 		using Matrix = std::vector<std::vector<T>>;
-	
-	} // Iridium::Tensor
 
-} // Iridium
+	} // namespace Tensor
+
+} // namespace Iridium
 
 #endif

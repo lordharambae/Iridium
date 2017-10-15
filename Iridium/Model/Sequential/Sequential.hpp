@@ -8,8 +8,8 @@ namespace Iridium {
 
 		class Sequential {};
 
-	} // Iridium::Model
+	} // namespace Model
 
-} // Iridium
+} // namespace Iridium
 
 #endif

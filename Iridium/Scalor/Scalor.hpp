@@ -6,7 +6,7 @@ namespace Iridium {
 
 	namespace Scalor {
 
-		using Boolean = bool;
+		using Bit = bool;
 		using Char8 = char;
 		using Int16 = signed short int;
 		using UInt16 = unsigned short int;
@@ -18,8 +18,8 @@ namespace Iridium {
 		using Float64 = double;
 		using Float128 = long double;
 
-	} // Iridium::Scalor
+	} // namespace Scalor
 
-} // Iridium
+} // namespace Iridium
 
 #endif

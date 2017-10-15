@@ -8,8 +8,8 @@ namespace Iridium {
 
 		class Graph {};
 
-	} // Iridium::Model
+	} // namespace Model
 
-} // Iridium
+} // namespace Iridium
 
 #endif

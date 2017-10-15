@@ -6,6 +6,6 @@ namespace Iridium {
 
 	class Session {};
 
-} // Iridium
+} // namespace Iridium
 
 #endif

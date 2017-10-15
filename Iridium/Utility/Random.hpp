@@ -6,12 +6,10 @@ namespace Iridium {
 
 	namespace Utility {
 
-		namespace Random {
+		namespace Random {} // namespace Random
 
-		} // Iridium::Utility::Random
+	} // namespace Utility
 
-	} // Iridium::Utility
-
-} // Iridium
+} // namespace Iridium
 
 #endif

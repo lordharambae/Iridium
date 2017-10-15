@@ -4,10 +4,8 @@
 
 namespace Iridium {
 
-	namespace Initializer {
+	namespace Initializer {} // namespace Initializer
 
-	} // Iridium::Initializer
-
-} // Iridium
+} // namespace Iridium
 
 #endif

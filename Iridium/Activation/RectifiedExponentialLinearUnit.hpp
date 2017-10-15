@@ -9,15 +9,13 @@ namespace Iridium {
 		class RectifiedExponentialLinearUnit {
 
 		public:
-
 			// Scalor::Float64 Function() {}
 
 			// Scalor::Float64 Derivative() {}
-
 		};
 
-	} // Iridium::Activation
+	} // namespace Activation
 
-} // Iridium
+} // namespace Iridium
 
 #endif

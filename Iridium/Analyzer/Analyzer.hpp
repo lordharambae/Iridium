@@ -4,10 +4,8 @@
 
 namespace Iridium {
 
-	namespace Analyzer {
+	namespace Analyzer {} // namespace Analyzer
 
-	} // Iridium::Analyzer
-
-} // Iridium
+} // namespace Iridium
 
 #endif

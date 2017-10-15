@@ -40,9 +40,9 @@
 // 		}
 
 // 		Scalor::Float64 SoftExponentialLinearUnit(const Scalor::Float64 &x,
-// 			 const Scalor::Float64 &												  alpha) {
-// 			if (alpha > 0.0) {
-// 				return Utility::Math::Exponent(alpha * x);
+// 			 const Scalor::Float64 &												  alpha)
+// { 			if (alpha > 0.0) { 				return Utility::Math::Exponent(alpha *
+// x);
 // 			}
 // 			if (alpha < 0.0) {
 // 				return 1.0 / (1.0 - alpha * (alpha + x));

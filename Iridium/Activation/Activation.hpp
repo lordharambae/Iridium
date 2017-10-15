@@ -19,4 +19,4 @@
 #include "CardinalSinusoid.hpp"
 #include "Gaussian.hpp"
 
-#endif 
+#endif
