@@ -6,9 +6,7 @@
 	#include "../Scalor/Scalor.hpp"
 #endif
 
-#ifndef MATH_HPP
-	#include "../Utility/Math.hpp"
-#endif
+#include <cmath>
 
 namespace Iridium {
 
@@ -18,15 +16,11 @@ namespace Iridium {
 
 		public:
 			Scalor::Float64 Function(const Scalor::Float64& x) {
-				return (((Utility::Math::SquareRoot(Utility::Math::Power(x, 2) + 1.0)) -1.0) / 2.0) + x;
+				return (((std::sqrt(std::pow(x, 2) + 1.0)) -1.0) / 2.0) + x;
 			}
 
 			Scalor::Float64 Derivative(const Scalor::Float64& x) {
-				return (x /
-						  (2 *
-								Utility::Math::SquareRoot(
-									 Utility::Math::Power(x, 2) + 1.0))) +
-				 1;
+				return (x / (2 * std::sqrt(std::pow(x, 2) + 1.0))) + 1;
 			}
 		};
 
