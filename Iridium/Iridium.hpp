@@ -17,6 +17,7 @@
 #include "Optimizer/Optimizer.hpp"
 #include "Analyzer/Analyzer.hpp"
 #include "Loss/Loss.hpp"
+#include "IO/IO.hpp"
 #include "Session/Session.hpp"
 #include "Model/Model.hpp"
 
