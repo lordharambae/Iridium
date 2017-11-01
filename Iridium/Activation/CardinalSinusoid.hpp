@@ -3,6 +3,7 @@
 #define CARDINAL_SINUSOID_HPP
 
 #include "../Scalor/Scalor.hpp"
+#include "../Utility/Math.hpp"
 
 namespace Iridium {
 
