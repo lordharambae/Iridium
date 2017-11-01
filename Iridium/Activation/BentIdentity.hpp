@@ -2,9 +2,8 @@
 #ifndef BENT_IDENTITY_HPP
 #define BENT_IDENTITY_HPP
 
-#ifndef SCALOR_HPP
-	#include "../Scalor/Scalor.hpp"
-#endif
+#include "../Scalor/Scalor.hpp"
+#include "../Utility/Math.hpp"
 
 #include <cmath>
 
@@ -15,12 +14,15 @@ namespace Iridium {
 		class BentIdentity {
 
 		public:
-			Scalor::Float64 Function(const Scalor::Float64& x) {
-				return (((std::sqrt(std::pow(x, 2) + 1.0)) -1.0) / 2.0) + x;
+			
+			template<class T>
+			Scalor<T>& Function(const Scalor<T>& x) const {
+				return (((Utility::Math::Root(Utility::Math::Power(x, 2) + 1.0)) -1.0) / 2.0) + x;
 			}
 
-			Scalor::Float64 Derivative(const Scalor::Float64& x) {
-				return (x / (2 * std::sqrt(std::pow(x, 2) + 1.0))) + 1;
+			template<class T>
+			Scalor<T>& Derivative(const Scalor<T>& x) const {
+				return (x / (2 * Utility::Math::Root(Utility::Math::Power(x, 2) + 1.0))) + 1;
 			}
 		};
 
