@@ -2,6 +2,8 @@
 #ifndef BINARY_STEP_HPP
 #define BINARY_STEP_HPP
 
+#include "../Scalor/Scalor.hpp"
+
 namespace Iridium {
 
 	namespace Activation {
@@ -9,9 +11,21 @@ namespace Iridium {
 		class BinaryStep {
 
 		public:
-			// Scalor::Float64 Function() {}
+			
+			template<class T>
+			Scalor<T>& Function(const Scalor<T>& x) const {
+				if (x >= 0.0) {
+					return 1.0;
+				}
+				return 0.0;
+			}
 
-			// Scalor::Float64 Derivative() {}
+			
+			template<class T>
+			Scalor<T>& Derivative(const Scalor<T>& x) const {
+				return 0.0;
+			}	
+		
 		};
 
 	} // namespace Activation
