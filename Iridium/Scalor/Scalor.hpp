@@ -61,6 +61,7 @@ namespace Iridium {
 	using Short = Scalor<short>;
 	using Integer = Scalor<int>;
 	using Long = Scalor<long>;
+	using Size = Scalor<unigned long>;
 	using Float = Scalor<float>;
 	using Double = Scalor<double>;
 
