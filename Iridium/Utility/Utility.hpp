@@ -5,5 +5,7 @@
 #include "Math.hpp"
 #include "Random.hpp"
 #include "Algorithm.hpp"
+#include "Iterator.hpp"
+#include "Allocator.hpp"
 
 #endif
