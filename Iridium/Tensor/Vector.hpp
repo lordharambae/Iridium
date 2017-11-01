@@ -2,12 +2,16 @@
 #ifndef VECTOR_HPP
 #define VECTOR_HPP
 
+#include "../Scalor/Scalor.hpp"
+#include "../Utility/Iterator.hpp"
+#include "../Utiliy/Allocator.hpp"
+
 namespace Iridium {
 
 	namespace Tensor {
 
 		template <class T>
-		using Vector = std::vector<T>;
+		class Vector {};
 
 	} // namespace Tensor
 
