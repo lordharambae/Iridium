@@ -5,7 +5,7 @@
 #include "Scalor/Scalor.hpp"
 #include "Tensor/Tensor.hpp"
 #include "Utility/Utility.hpp"
-#include "Kernal/Kernal.hpp"
+#include "Kernel/Kernel.hpp"
 #include "IO/IO.hpp"
 #include "Session/Session.hpp"
 #include "Initializer/Initializer.hpp"
