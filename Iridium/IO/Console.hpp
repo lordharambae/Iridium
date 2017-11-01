@@ -13,6 +13,8 @@ namespace Iridium {
 			static void log() {}
 			static void warning() {}
 			static void debug() {}
+			static void comment() {}
+			static void document() {}
 			static void error() {}
 		
 		};
